@@ -2,7 +2,9 @@ import React from "react";
 import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { FaServer } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { FaUserTie } from "react-icons/fa";
 import suaranusantaraImg from "@/public/suaranusantara.png";
 import companyprofileImg from "@/public/companyprofile.png";
 import regImg from "@/public/reg.png";
@@ -37,26 +39,37 @@ export const links = [
 export const experiencesData = [
   {
     title: "High School Student",
-    location: "Jakarta",
     description:
-      "I started learning about programming in high school. I tried to create a plain website using HTML and it amazes me. My first programming language is C++ but I switched to JavaScript.",
+      "I started learning about programming in high school. My first programming language is C++.",
     icon: React.createElement(LuGraduationCap),
-    date: "2020",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Jakarta",
+    title: "Introduced to Front-End",
     description:
-      "I worked as a front-end developer for some projects. I used React, Next.js, and Tailwind.",
+      "I learned about front-end development and created some projects. I used HTML, CSS, and JavaScript for the first time. I also learned about responsive design and accessibility.",
+    icon: React.createElement(FaHtml5),
+    date: "2022",
+  },
+  {
+    title: "Advanced Front-End",
+    description:
+      "I worked on some advanced front-end projects. I used React, Bootstrap, Tailwind CSS for the first time. I participated in a national web development competition with a team. I also learned about version control using Git and GitHub.",
     icon: React.createElement(FaReact),
     date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Jakarta",
+    title: "Introduced to Back-End",
     description:
-      "I'm now a full-stack developer working for some projects. I used Express and MongoDB for a back-end project. I also used Flutter and Firebase for a mobile app project. ",
-    icon: React.createElement(FaNode),
+      "I participated in LKS (Lomba Kompetensi Siswa) and created RESTful API using PHP and Laravel. Then, I also started learning about PHP, databases and SQL. ",
+    icon: React.createElement(FaServer),
+    date: "2023",
+  },
+  {
+    title: "Full-Stack Developer",
+    description:
+      "Now, I'm a full-stack developer working for some projects. I used Express and MongoDB for a back-end project. I also used Flutter and Firebase for a mobile app project. ",
+    icon: React.createElement(FaUserTie),
     date: "2024",
   },
 ] as const;
