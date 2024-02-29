@@ -85,7 +85,7 @@ export const projectsData = [
   {
     title: "Suara Nusantara",
     description:
-      "An informative website about the muscial instruments of Indonesia. It has an image gallery and articles section. It also has a dark mode feature.",
+      "An informative website about the musical instruments of Indonesia. It has an image gallery and articles section. It also has a dark mode feature.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageUrl: suaranusantaraImg,
   },
