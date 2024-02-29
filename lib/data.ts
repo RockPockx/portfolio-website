@@ -2,9 +2,10 @@ import React from "react";
 import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import suaranusantaraImg from "@/public/suaranusantara.png";
+import companyprofileImg from "@/public/companyprofile.png";
+import regImg from "@/public/reg.png";
 
 export const links = [
   {
@@ -66,21 +67,21 @@ export const projectsData = [
     description:
       "I made a simple and interactive company profile website. It has a contact form and a services section.",
     tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: corpcommentImg,
+    imageUrl: companyprofileImg,
   },
   {
     title: "Suara Nusantara",
     description:
       "An informative website about the muscial instruments of Indonesia. It has an image gallery and articles section. It also has a dark mode feature.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    imageUrl: rmtdevImg,
+    imageUrl: suaranusantaraImg,
   },
   {
     title: "Next API",
     description:
       "RESTful API made with Next.js and Prisma ORM.",
     tags: ["Next.js", "MySQL", "Prisma"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: regImg,
   },
 ] as const;
 
