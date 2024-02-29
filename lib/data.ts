@@ -1,5 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
@@ -35,51 +35,51 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "High School Student",
+    location: "Jakarta",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I started learning about programming in high school. I tried to create a plain website using HTML and it amazes me. My first programming language is C++ but I switched to JavaScript.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Jakarta",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I worked as a front-end developer for some projects. I used React, Next.js, and Tailwind.",
+    icon: React.createElement(FaReact),
+    date: "2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Jakarta",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm now a full-stack developer working for some projects. I used Express and MongoDB for a back-end project. I also used Flutter and Firebase for a mobile app project. ",
+    icon: React.createElement(FaNode),
+    date: "2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Company Profile",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I made a simple and interactive company profile website. It has a contact form and a services section.",
+    tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Suara Nusantara",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "An informative website about the muscial instruments of Indonesia. It has an image gallery and articles section. It also has a dark mode feature.",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Next API",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "RESTful API made with Next.js and Prisma ORM.",
+    tags: ["Next.js", "MySQL", "Prisma"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -88,20 +88,16 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Node.js",
+  "Express",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Bootstrap",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "MySQL",
+  "Prisma",
+  "PHP",
   "Python",
-  "Django",
-  "Framer Motion",
 ] as const;

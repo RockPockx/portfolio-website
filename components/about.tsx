@@ -19,30 +19,24 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        I am a student in SMKN 69 Jakarta, majoring in {" "}
+        <span className="font-medium">Informatics, Network, and Application System</span>. I am passionate for programming and the world of IT. I started as a front-end developer and experimenting with technologies such as{" "}
+        <span className="font-medium">HTML, CSS, JavaScript, React, and Tailwind</span>. Then, I started learning back-end development with Node.js. Recently, I've started learning mobile app development with Flutter and Firebase. {" "}
+        My core stack
         is{" "}
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I am always looking to
+        learn new technologies.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        video games and listening to music. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">the history of music genres and discographies</span>.
       </p>
     </motion.section>
   );
