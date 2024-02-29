@@ -30,15 +30,15 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
+            {/* <Image
               src="/public/nathan-potrait.jpg"
               alt="Nathan portrait"
-              width="192"
-              height="192"
+              width="10"
+              height="100"
               quality="90"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
+            /> */}
           </motion.div>
 
           <motion.span
@@ -65,8 +65,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Nathan.</span> I'm a{" "}
         <span className="font-bold">full-stack developer.</span> with{" "}
         <span className="font-bold">a year</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Next.js</span>.
+        building <span className="italic">sites & apps</span>.
       </motion.h1>
 
       <motion.div
