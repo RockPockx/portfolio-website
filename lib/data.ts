@@ -61,7 +61,7 @@ export const experiencesData = [
   {
     title: "Introduced to Back-End",
     description:
-      "I participated in LKS (Lomba Kompetensi Siswa) and created RESTful API using PHP and Laravel. Then, I also started learning about PHP, databases and SQL. ",
+      "I participated in LKS (Lomba Kompetensi Siswa) and created RESTful API using PHP and Laravel. Then, I started to learn more about scripting languages, API, databases and server. ",
     icon: React.createElement(FaServer),
     date: "2023",
   },
