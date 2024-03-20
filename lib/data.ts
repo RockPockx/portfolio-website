@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import { FaServer } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaUserTie } from "react-icons/fa";
+import nikelandingpageImg from "@/public/nikelandingpage.png"
 import suaranusantaraImg from "@/public/suaranusantara.png";
 import companyprofileImg from "@/public/companyprofile.png";
 import regImg from "@/public/reg.png";
@@ -88,6 +89,13 @@ export const projectsData = [
       "An informative website about the musical instruments of Indonesia. It has an image gallery and articles section. It also has a dark mode feature.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     imageUrl: suaranusantaraImg,
+  },
+  {
+    title: "Nike Landing Page",
+    description:
+      "Fully responsive Nike landing page made with React and Tailwind CSS.",
+    tags: ["React", "Tailwind"],
+    imageUrl: nikelandingpageImg,
   },
   {
     title: "Next API",
