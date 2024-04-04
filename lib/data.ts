@@ -70,7 +70,7 @@ export const experiencesData = [
   {
     title: "Full-Stack Developer",
     description:
-      "Now, I'm a full-stack developer working for some projects. I used Express and MongoDB for a back-end project. I also used Flutter and Firebase for a mobile app project. ",
+      "Now, I'm a full-stack developer working for some projects. I used Express and MongoDB for a back-end project. I also used Next.js for some front-end projects. ",
     icon: React.createElement(FaUserTie),
     date: "2024",
   },
