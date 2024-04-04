@@ -129,5 +129,4 @@ export const skillsData = [
   "MySQL",
   "Prisma",
   "PHP",
-  "Python",
 ] as const;
