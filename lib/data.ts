@@ -8,6 +8,7 @@ import { FaUserTie } from "react-icons/fa";
 import nikelandingpageImg from "@/public/nikelandingpage.png"
 import suaranusantaraImg from "@/public/suaranusantara.png";
 import companyprofileImg from "@/public/companyprofile.png";
+import advicegeneratorImg from "@/public/advicegenerator.png";
 import regImg from "@/public/reg.png";
 
 export const links = [
@@ -96,6 +97,13 @@ export const projectsData = [
       "Fully responsive Nike landing page made with React and Tailwind CSS.",
     tags: ["React", "Tailwind"],
     imageUrl: nikelandingpageImg,
+  },
+  {
+    title: "Random Advice Generator",
+    description:
+      "Advice generator using Advice Slip JSON API and Axios.",
+    tags: ["React", "CSS"],
+    imageUrl: advicegeneratorImg,
   },
   {
     title: "Next API",
