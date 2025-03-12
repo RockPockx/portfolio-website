@@ -6,10 +6,13 @@ import { FaServer } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaUserTie } from "react-icons/fa";
 import nikelandingpageImg from "@/public/nikelandingpage.png"
-import suaranusantaraImg from "@/public/suaranusantara.png";
-import companyprofileImg from "@/public/companyprofile.png";
-import advicegeneratorImg from "@/public/advicegenerator.png";
-import regImg from "@/public/reg.png";
+import kontakamiImg from "@/public/kontakami.png";
+import hamparanImg from "@/public/hamparan.png";
+import anugerahlestariImg from "@/public/anugerahlestari.png";
+import bptImg from "@/public/bpt.png";
+import moneloImg from "@/public/monelo.png";
+import carneImg from "@/public/carne.png";
+import heirImg from "@/public/heir.png";
 
 export const links = [
   {
@@ -68,9 +71,9 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Web Developer Internship",
     description:
-      "Now, I'm a full-stack developer working for some projects. I used Express and MongoDB for a back-end project. I also used Next.js for some front-end projects. ",
+      "I got an opportunity to have an internship at one of the best branding agency in Jakarta. There, I learned about WordPress, Elementor, and Figma. I also learned about SEO, Google Analytics, Google Tag Manager, and Google Search Console. I also got the chance to sharpen my Laravel skills by creating custom websites and e-commerce websites.",
     icon: React.createElement(FaUserTie),
     date: "2024",
   },
@@ -78,18 +81,53 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Company Profile",
+    title: "Kontakami",
     description:
-      "I made a simple and interactive company profile website. It has a contact form and a services section.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: companyprofileImg,
+      "A company profile website for a leading call-center service solution in Indonesia. Made with modern and sleek design, also including SEO-based articles.",
+    tags: ["Tailwind", "Laravel", "SEO"],
+    imageUrl: kontakamiImg,
   },
   {
-    title: "Suara Nusantara",
+    title: "Anugerah Lestari",
     description:
-      "An informative website about the musical instruments of Indonesia. It has an image gallery and articles section. It also has a dark mode feature.",
-    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    imageUrl: suaranusantaraImg,
+      "A modern and visually stunning company profile website for a trusted weighing system solution. Made with a admin dashboard for easy content management.",
+    tags: ["Laravel", "Tailwind"],
+    imageUrl: anugerahlestariImg,
+  },
+  {
+    title: "Blue Power Technology",
+    description:
+      "A professional company profile website for a trusted IT solution. Made with the best plugins to ensure maximum performance and security.",
+    tags: ["WordPress", "Elementor"],
+    imageUrl: bptImg,
+  },
+  {
+    title: "Heir Care Studio",
+    description:
+      "A sleek and modern website for a hair salon. Made with a user-friendly layout and integration to a booking system.",
+    tags: ["WordPress", "Elementor"],
+    imageUrl: heirImg,
+  },
+  {
+    title: "Hamparan Stone",
+    description:
+      "An elegant website for a trusted natural stone supplier. Made with a custom design, SEO-based articles, and full admin dashboard.",
+    tags: ["Laravel", "Tailwind", "Livewire"],
+    imageUrl: hamparanImg,
+  },
+  {
+    title: "Carne Ristorante",
+    description:
+      "A luxurious Italian dining website. Made with a table reservation and membership system",
+    tags: ["WordPress", "Elementor"],
+    imageUrl: carneImg,
+  },
+  {
+    title: "Monelo Digital Agency",
+    description:
+      "A creative digital agency website. Made with a compact design and SEO-based articles.",
+    tags: ["WordPress", "Elementor", "SEO", "Google Tag Manager", "Google Search Console"],
+    imageUrl: moneloImg,
   },
   {
     title: "Nike Landing Page",
@@ -97,21 +135,7 @@ export const projectsData = [
       "Fully responsive Nike landing page made with React and Tailwind CSS.",
     tags: ["React", "Tailwind"],
     imageUrl: nikelandingpageImg,
-  },
-  {
-    title: "Random Advice Generator",
-    description:
-      "Advice generator using Advice Slip JSON API and Axios.",
-    tags: ["React", "CSS"],
-    imageUrl: advicegeneratorImg,
-  },
-  {
-    title: "Next API",
-    description:
-      "RESTful API made with Next.js and Prisma ORM.",
-    tags: ["Next.js", "MySQL", "Prisma"],
-    imageUrl: regImg,
-  },
+  }
 ] as const;
 
 export const skillsData = [
@@ -120,13 +144,19 @@ export const skillsData = [
   "JavaScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Express",
-  "Git",
-  "Tailwind",
-  "Bootstrap",
-  "MongoDB",
-  "MySQL",
-  "Prisma",
   "PHP",
+  "MySQL",
+  "Laravel",
+  "Tailwind",
+  "Alpine.js",
+  "Livewire",
+  "WordPress",
+  "Elementor",
+  "Figma",
+  "Git",
+  "Google Analytics (GA4)",
+  "SEO",
+  "Google Tag Manager (GTM)",
+  "Google Search Console (GSC)",
+
 ] as const;

@@ -19,15 +19,16 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a student in SMKN 69 Jakarta, majoring in {" "}
-        <span className="font-medium">Informatics, Network, and Application System</span>. I am passionate for programming and the world of IT. I started as a front-end developer and experimenting with technologies such as{" "}
-        <span className="font-medium">HTML, CSS, JavaScript, React, and Tailwind</span>. Then, I started learning back-end development with Node.js. Recently, I've started learning full-stack development with Next.js. {" "}
-        My core stack
+      A web developer passionate in building clean, responsive, and user-friendly websites. I focus on front-end development and WordPress, turning designs into seamless digital experiences.
+      </p>
+
+      <p className="mb-3">
+      My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Tailwind, Alpine, Laravel, and Livewire
         </span>
-        . I am always looking to
+        . I also utilize <span className="font-medium">WordPress</span> to build user-friendly websites. I am always looking to
         learn new technologies.
       </p>
 

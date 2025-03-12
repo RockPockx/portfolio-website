@@ -30,15 +30,15 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            {/* <Image
-              src="/public/nathan-potrait.jpg"
+            <Image
+              src="/profile-pic.jpeg"
               alt="Nathan portrait"
-              width="10"
-              height="100"
-              quality="90"
+              width="100"
+              height="500"
+              quality="100"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            /> */}
+            />
           </motion.div>
 
           <motion.span
@@ -62,9 +62,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Nathan.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer.</span> I enjoy
-        building <span className="italic">sites & apps</span>.
+        <span className="font-bold">Hello, I'm Diego Nathanael.</span> I'm a{" "}
+        <span className="font-bold">website developer.</span> I enjoy crafting <span className="italic">visually stunning and user-friendly websites</span>.
       </motion.h1>
 
       <motion.div
@@ -106,7 +105,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/DiegoNathanael"
+          href="https://github.com/RockPockx"
           target="_blank"
         >
           <FaGithubSquare />
