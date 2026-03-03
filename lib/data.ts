@@ -90,7 +90,7 @@ export const projectsData = [
   {
     title: "Anugerah Lestari",
     description:
-      "A modern and visually stunning company profile website for a trusted weighing system solution. Made with a admin dashboard for easy content management.",
+      "A modern and visually stunning company profile website for a trusted weighing system solution. Made with an admin dashboard for easy content management.",
     tags: ["Laravel", "Tailwind"],
     imageUrl: anugerahlestariImg,
   },
@@ -128,13 +128,6 @@ export const projectsData = [
       "A creative digital agency website. Made with a compact design and SEO-based articles.",
     tags: ["WordPress", "Elementor", "SEO", "Google Tag Manager", "Google Search Console"],
     imageUrl: moneloImg,
-  },
-  {
-    title: "Nike Landing Page",
-    description:
-      "Fully responsive Nike landing page made with React and Tailwind CSS.",
-    tags: ["React", "Tailwind"],
-    imageUrl: nikelandingpageImg,
   }
 ] as const;
 
